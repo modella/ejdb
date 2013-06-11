@@ -1,4 +1,3 @@
-
 ## ejdb
 
 [ejdb](http://ejdb.org) plugin for [modella](http://github.com/modella).
@@ -24,11 +23,15 @@ User.attr('nick');
 
 new User()
 .name('amir')
-.email('yields')
+.nick('yields')
 .save(function(err){
   console.log(user.primary());
 });
 ```
+
+## tests
+
+    $ make test
 
 ## todo
 
