@@ -1,0 +1,13 @@
+{
+  "name": "modella-ejdb",
+  "version": "0.0.1",
+  "author": "Amir Abu Shareb <yields@icloud.com>",
+  "keywords": ["ejdb", "modella"],
+  "dependencies": {},
+  "devDependencies": {
+    "ejdb": "*",
+    "should": "*",
+    "mocha": "*",
+    "modella": "*"
+  }
+}
